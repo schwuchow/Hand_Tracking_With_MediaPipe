@@ -50,6 +50,7 @@ namespace Mediapipe.Unity.HandTracking
       set => graphRunner.minTrackingConfidence = value;
     }
 
+    # added code
     public List<Vector3> positionsHandRight;
     public List<Vector3> positionsHandLeft;
 
@@ -114,6 +115,7 @@ namespace Mediapipe.Unity.HandTracking
       _handRectsFromPalmDetectionsAnnotationController.DrawLater(eventArgs.value);
     }
 
+    # added code
     private void OnHandLandmarksOutput(object stream, OutputEventArgs<List<NormalizedLandmarkList>> eventArgs)
     {
       if (eventArgs?.value != null) {
