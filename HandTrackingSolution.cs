@@ -19,8 +19,10 @@ namespace Mediapipe.Unity.HandTracking
     [SerializeField] private MultiHandLandmarkListAnnotationController _handLandmarksAnnotationController;
     [SerializeField] private NormalizedRectListAnnotationController _handRectsFromLandmarksAnnotationController;
 
+    # added code
     [SerializeField] private RawImage _screen;
 
+    # added code
     [SerializeField] private int _width;
     [SerializeField] private int _height;
     [SerializeField] private int _fps;
